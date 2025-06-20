@@ -28,7 +28,7 @@ const seedDatabase = async () => {
 
     await Post.create({ content: 'GraphQL is amazing!', author: userVconnect._id });
     await Post.create({ content: 'Learning Next.js is fun.', author: userRoman._id });
-    await Post.create({ content: 'Alice posts again.', author: userVconnect._id });
+    await Post.create({ content: 'He posts again.', author: userVconnect._id });
     
     console.log('✅ Database seeded successfully!');
   } catch (error) {
